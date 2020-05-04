@@ -1,0 +1,90 @@
+<DOCTYPE!html>
+    <html>
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css"
+            integrity="sha384-IIED/eyOkM6ihtOiQsX2zizxFBphgnv1zbe1bKA+njdFzkr6cDNy16jfIKWu4FNH" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+        <!-- JavaScript -->
+
+    </head>
+
+    <body>
+        <header>
+            <div class="container bg-dark-gray">
+                <div class="jumbotron">
+                    <h1>GitHub <i class="fab fa-github-alt"></i> README generator</i></h1>
+                    <h4>A site that automates readme's for github hosting.</h4>
+                    <p><b>Some Good Practice Guides To Follow:</b></p>
+                    <a href="https://www.makeareadme.com" target="#blank">Some Things To Keep in mind when writing a
+                        README</a><br>
+                    <a href="https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3"
+                        target="#blank">Also "A Beginners Guide to writing a Kickass README"</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container" id="form-readme">
+                <form action="onClick" method="POST">
+                    <!--title-->
+                    <label for="data.title">Title:</label><br>
+                    <input type="text" id="data.title" name="title"><br>
+                    <!--description-->
+                    <label for="data.description">Description:</label><br>
+                    <input type="text" id="data.description" name="description"><br>
+                    <!--usage-->
+                    <label for="data.usage">Usage:</label><br>
+                    <input type="text" id="data.usage" name="usage"><br>
+                    <!--license-->
+                    <label for="data.license">License:</label><br>
+                    <input type="text" id="data.license" name="license"><br>
+                    <!--contributing-->
+                    <label for="data.contributing">Contributing:</label><br>
+                    <input type="text" id="data.contributing" name="contributing"><br>
+                    <!--test-->
+                    <label for="data.test">Test:</label><br>
+                    <input type="text" id="data.test" name="test"><br>
+                    <!--questions-->
+                    <label for="data.questions">Questions:</label><br>
+                    <input type="text" id="data.questions" name="questions"><br>
+                    <button type="submit" id="submit" action="eventclick.js" class="btn">Generate ReadMe</button>
+                    <script src="eventclick.js"></script>
+                </form>
+                <div class="container">
+                    <h2>README Generated From Form Content</h2>
+                    <div class="input">
+                        <form><output id=""></output></form>
+                    </div>
+
+
+
+                    <!--Javascript Append Here -->
+                </div>
+                <script src="app.js"></script>
+            </div>
+
+        </main>
+
+        <footer>
+
+        </footer>
+    </body>
+    <!-- possible js needed here-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    </html>

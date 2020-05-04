@@ -1,0 +1,1 @@
+"use strict"; function generateMarkdown(e) { return "\n# ".concat(e.title, "\n\n") } module.exports = generateMarkdown;

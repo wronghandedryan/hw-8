@@ -1,0 +1,27 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "title",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "inquirer": "^6.5.2",
+    "jest": "^25.5.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wronghandedryan/hw-8-.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/wronghandedryan/hw-8-/issues"
+  },
+  "homepage": "https://github.com/wronghandedryan/hw-8-#readme"
+}

@@ -1,0 +1,21 @@
+body{
+background-color: lightblue;
+}
+a{
+color: black;
+}
+
+.jumbotron {
+background-color: darkgrey;
+margin: 20px;
+}
+
+#form-readme{
+background-color: darkgray;
+padding: 20px;
+}
+
+.btn{
+padding: 10px;
+background-color: white;
+}
